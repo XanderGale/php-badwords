@@ -11,7 +11,7 @@
     <?php 
 
         $paragraph = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero maxime quae unde. Dignissimos consequuntur nulla animi voluptas accusantium deserunt numquam, voluptatem nostrum quo adipisci, optio facilis ipsum quam quas! Tenetur!';
-        $censoredWord = $_GET['censored_word'];
+        $censoredWord = $_GET['censoredWord'];
 
         $censoredParagraph = str_replace($censoredWord, '***', $paragraph);
 
